@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root{
+    min-height: 100vh;
+    display: flex;
+}
+.sidebar{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    background-color: #F0F4F9;
+}
+#top{
+    display: block;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-left: 7px;
+    padding-top: 5px; 
+    font-size: larger;  
+}
+#top:hover{
+    background-color: #E5EAF1;
+}
+
+#newchat{
+    position: relative;
+    top: -115px;
+    left: 25px;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #E5EAF1;
+    color: rgb(178, 177, 177);
+    padding: 5px;
+    font-size: medium;
+}
+#newchat :nth-child(1){
+    padding-left: -5px;
+    padding-top: 3px;
+}
+#newchat p{
+    padding-top: 3px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    gap: 16px;
+    font-size: medium;
+    padding-left: 27px;
+}
+
+.gem {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.activity {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.help {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.setting {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}
