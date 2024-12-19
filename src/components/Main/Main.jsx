@@ -20,7 +20,7 @@ const{onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useCon
             <>
             
             <div className="greet">
-                <p><span>Hello, Shubham.</span></p>
+                <p><span>Hello, Dev.</span></p>
                 <p>How can i help you today?</p>
             </div>
             <div className="cards">
